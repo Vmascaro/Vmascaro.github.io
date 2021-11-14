@@ -1,0 +1,14 @@
+html, body{
+    /* adds 40 pixels of space to the top of the page, centers the text and adds the new font "slab" */
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'slab';
+}
+@font-face{
+    /* calls the font from the folder */
+    font-family: 'slab';
+    src: url(KlinicSlabLight.otf);
+    font-style: normal;
+    font-weight: 100;
+}
