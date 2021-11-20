@@ -1,0 +1,38 @@
+@font-face{
+    /* calls the font from the folder */
+    font-family: 'slab';
+    src: url(Font/KlinicSlabBook.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'slabHead';
+    src: url(Font/KlinicSlabBookIt.otf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.title{
+    font-family: 'slabHead';
+    font-size: 300%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.about{
+    /* adds 40 pixels of space to the top of the page, centers the text and adds the new font "slab" */
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'slab';
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    height: 25%;
+    width: 25%;
+}
