@@ -1,3 +1,4 @@
+/* This stlye sheet is shared by the menu and locationhours pages*/
 @font-face{
     /* calls the font from the folder */
     font-family: 'slab';
@@ -12,20 +13,24 @@
     font-style: italic;
     font-weight: bold;
 }
+/*background color and font for both pages is set */
 html{
     background-color: rgb(207, 28, 68);
     font-family: 'slab';
 }
+/* changes just the nav bars unoreded listed elements*/
 .nav{
     padding: 9%;
     text-align: center;
     display:inline;
 }
+/* for listed items within the menu page*/
 .food{
     text-align: left;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+/* changes font for just the nav bar buttons and adds font*/
 .button{
     border: 2px solid rgb(95,19,18);
     padding-left: 5px;
@@ -35,11 +40,12 @@ html{
     font-family: 'slabHead';
     font-size: large;
 }
-
+/* for location list in locationhours page*/
 .loc{
     text-align: left;
     padding-left: 70%;
 }
+/*nav menu  for both pages*/
 .Upper_Menu{
     border: 5px solid rgb(95,19,18);
     background-color: rgb(216, 198, 184);
@@ -48,6 +54,7 @@ html{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+/*logo  for both pages*/
 .logo{
     display: block;
     height: 100px;
@@ -60,6 +67,7 @@ html{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+/*for location and hours block within the locationhours page*/
 .imglocation{
     margin-top: 2%;
     margin-left: 20%;
@@ -71,9 +79,11 @@ html{
     margin-right: 12.5%;
     width: 65%;
 }
+/*for listed elements within the imglocation block*/
 .Our_Locations{
     padding-top: 5%;
 }
+/*block menu for the menu page*/
 .menuBox{
     margin-top: 2%;
     margin-left: 20%;
@@ -84,11 +94,13 @@ html{
     background-color: rgb(216, 198, 184);
     margin-right: 12.5%;
 }
+/* additional padding for menu box*/
 .menu{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.img4{
+/*Map image*/
+.map{
     height: 64%;
     width: 64%;
     display: block;

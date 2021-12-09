@@ -12,6 +12,7 @@
     font-style: italic;
     font-weight: bold;
 }
+/* colors page and forces font to every element */
 html{
     background-color: rgb(207, 28, 68);
     font-family: 'slab';
@@ -39,6 +40,7 @@ html{
     text-align: center;
     border: 5px solid rgb(95,19,18);
     font-size: large;
+    /* is not ignored? */
     float: right;
     width: 77%;
     background-color: rgb(216, 198, 184);
@@ -62,20 +64,14 @@ html{
     padding-top: 5%;
     padding-bottom: 6%;
 }
-
-.title{
-    font-family: 'slabHead';
-    font-size: 300%;
-    text-align: center;
-
-}
+/* for nav and social bars */
 li{
     padding: 9%;
     text-align: center;
     display:inline;
     
 }
-
+/* Scales logo to specific size */
 .logo{
     display: block;
     height: 100px;
@@ -96,6 +92,7 @@ li{
     border: 5px solid rgb(95,19,18);
     
 }
+/* changes font for just the nav bar buttons and adds font*/
 .button{
     border: 2px solid rgb(95,19,18);
     padding-left: 5px;
