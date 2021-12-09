@@ -19,6 +19,7 @@ html{
 .imgabout{
     margin-top: 3%;
     margin-left: 10%;
+    margin-right: 10%;
     display: inline-block;
     text-align: center;
     border: 5px solid rgb(95,19,18);
